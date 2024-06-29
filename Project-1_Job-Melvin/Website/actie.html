@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="NL">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Niet nodig!</title>
+    <link rel="stylesheet" href="css/actie.css" />
+    <script src="script/actie.js"></script>
+  </head>
+  <body>
+    <div class="actieCard">
+      <div class="actieText">
+        <h2>Inruil actie!</h2>
+        <p
+          >Ruim je oude fiets op en stap in de wereld van ongekende mogelijkheden! Met het geweldige aanbod van het inruilen van je oude fiets voor een gloednieuwe met een aantrekkelijke
+          inruilkorting, wordt het tijd om jezelf te trakteren op een upgrade. Niet alleen bespaar je ruimte en vermijd je gedoe met het wegdoen van je oude fiets, maar je profiteert ook nog eens van
+          een fantastische deal die je portemonnee zal verblijden.
+          <br />
+          <br />
+          Dus waar wacht je nog op? Ruil je verouderde fiets in en geef jezelf de kans om te genieten van een splinternieuwe fiets die perfect past bij jouw behoeften en stijl. Het is een win-win
+          situatie die je niet wilt missen!</p
+        >
+      </div>
+
+      <div class="line"></div>
+
+      <form id="inruilForm">
+        <input id="naam" type="text" placeholder="Naam:" required />
+        <input id="email" type="email" placeholder="E-mail:" required />
+        <textarea id="message" style="height: 100px" placeholder="Type hier uw bericht:" required></textarea>
+        <button id="btnInruil" type="submit">Verstuur</button>
+      </form>
+    </div>
+
+    <div class="actieCard">
+      <div class="actieText">
+        <h2>Extra hulp nodig?</h2>
+        <p
+          >Het ANWB Kinderfietsplan en Stichting Leergeld zijn twee organisaties die zich inzetten om kinderen die financieel minder bedeeld zijn te voorzien van fietsen. <br />
+          <br />
+          Het ANWB Kinderfietsplan biedt de mogelijkheid voor gezinnen met een laag inkomen om tegen een gereduceerde prijs een kinderfiets aan te schaffen. Deze fietsen worden beschikbaar gesteld via
+          samenwerkingen met lokale fietsenwinkels. Gezinnen kunnen zich aanmelden bij de ANWB of bij lokale partners om in aanmerking te komen voor deze regeling.
+          <br />
+          <br />
+          Stichting Leergeld richt zich op het voorkomen van sociale uitsluiting van kinderen uit gezinnen met beperkte financiële middelen. Zij bieden ondersteuning op verschillende gebieden,
+          waaronder ook het verstrekken van fietsen aan kinderen, zodat zij kunnen deelnemen aan schoolactiviteiten en sociale evenementen. Gezinnen kunnen zich aanmelden bij lokale afdelingen van
+          Stichting Leergeld, waar zij kunnen informeren naar de mogelijkheden voor het verkrijgen van een fiets voor hun kinderen.
+          <br />
+          <br />
+          Kortom, beide organisaties bieden een belangrijke ondersteuning aan gezinnen in nood door het verstrekken van fietsen aan kinderen, waardoor zij kunnen deelnemen aan school en sociale
+          activiteiten, ongeacht de financiële situatie van hun ouders.</p
+        >
+      </div>
+
+      <div class="line"></div>
+
+      <div id="btnsHelp">
+        <h3 id="btnsHelpText">Klik hier voor meer informatie</h3>
+        <img src="img/actie1.png" id="btnANWB" alt="ANWB kinderfietsplan" onclick="btnANWB()" />
+        <img src="img/achtie2.png" id="btnLeergeld" alt="Stichting Leergeld" onclick="btnLeergeld()" />
+      </div>
+    </div>
+  </body>
+</html>

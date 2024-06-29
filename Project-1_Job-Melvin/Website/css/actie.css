@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 55px 20px 20px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.actieCard {
+    background-color: #bdd7ee;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    text-align: center;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+    display: grid;
+    grid-template-columns: 6fr 1fr 4fr;
+    grid-template-areas: 
+    "T L F";
+}
+
+.actieText {
+    grid-area: T;
+    margin-left: 15%;
+    width: 75%;
+    height: 50%;
+}
+
+.line {
+    grid-area: L;
+    background-color: black;
+    width: 1px;
+    height: 80%;
+    display: block;
+    margin: auto;
+}
+
+#inruilForm {
+    grid-area: F;
+    margin-right: 25%;
+}
+
+#inruilForm input,
+#inruilForm textarea {
+    width: 100%;
+    height: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 2px #627392;
+}
+
+#inruilForm button {
+    height: 30px;
+    width: 100%;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: #627392; 
+    font-size: 20px;
+    margin-top: 10px;
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#inruilForm button:hover {
+    background-color: #94a8bb;
+    cursor: pointer;
+}
+
+#btnsHelp {
+    grid-area: F;
+    padding: 10px;
+    width: 100%;
+    display: block;
+    float: right;
+    text-align: center;
+}
+
+#btnsHelpText {
+    display: block;
+    margin-left: auto;
+    margin-right: 25%;
+}
+
+#btnANWB {
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    width: 40%;
+    display: block;
+    float: left;
+    margin-top: 20%;
+}
+
+#btnLeergeld {
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    width: 40%;
+    display: block;
+    float: right;
+    margin-top: 10%;
+}
+
+#btnANWB:hover,
+#btnLeergeld:hover {
+    background-color: #94a8bb;
+    cursor: pointer;
+}
+

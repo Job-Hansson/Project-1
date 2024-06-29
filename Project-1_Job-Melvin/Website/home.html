@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="NL">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Niet nodig!</title>
+    <link rel="stylesheet" href="css/home.css" />
+    <script src="script/home.js"></script>
+  </head>
+  <body>
+    <div id="slideShow">
+      <div id="slide1" style="display: block">
+        <img src="img/home1.jpg" style="width: 100%" alt="home 1"/>
+      </div>
+      <div id="slide2" style="display: none">
+        <img src="img/home2.jpg" style="width: 100%" alt="home 2"/>
+      </div>
+      <div id="slide3" style="display: none">
+        <img src="img/home3.jpg" style="width: 100%" alt="home 3"/>
+      </div>
+      <a id="volgende" onclick=" forwardSlide()">❯</a>
+      <a id="vorige" onclick="backwardSlide()">❮</a>
+    </div>
+    <div id="openOrClosed">
+      <div id="storeOpen" style="display: none"> <img src="img/winkel2.png" alt="winkel is open" style="height: 75px" /><p style="float: left; margin: 30px 10px 0 10px; width: 155px">De winkel is nu open!</p> </div>
+      <div id="storeClosed" style="display: none"> <img src="img/winkel1.png" alt="winkel is closed" style="height: 75px" /><p style="float: left; margin: 30px 10px 0 10px; width: 180px">De winkel is nu gesloten!</p> </div>
+    </div>
+  </body>
+</html>

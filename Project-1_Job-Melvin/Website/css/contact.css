@@ -1,0 +1,97 @@
+body {
+    padding-top: 50px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+
+}
+
+#voornaam {
+    width: 28%;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    float: left;
+}
+
+#achternaam {
+    width: 67%;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    float: right;
+}
+
+#name {
+    width: 95%;
+    height: 50px;
+    margin-top: 30px;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+#email {
+    width: 95%;
+    height: 50px;
+    margin-top: 30px;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+#message {
+    width: 95%;
+    height: 75px;
+    margin-top: 10px;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    border: solid 2px #000000;
+}
+
+#submit {
+    height: 50px;
+    width: 95%;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: #627392; 
+    font-size: 20px;
+    margin-top: 30px;
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#submit:hover {
+    background-color: #94a8bb;
+    cursor: pointer;
+}
+
+#contactFormulier {
+    background-color: #bdd7ee;
+    width: 80%;
+    height: 65%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

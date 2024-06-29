@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="NL">
+  <head>
+    <meta charset="UTF-8" />
+    <title>De Fluitende Fietser</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <script src="script/index.js"></script>
+    <script src="script/fietsen.js"></script>
+    <link rel="icon" type="image/x-icon" href="img/logo.png" />
+  </head>
+  <body>
+    <header>
+      <img src="img/logo.png" id="imgLogo" height="75" alt="logo" />
+      <div id="divSearch">
+        <input type="text" placeholder="Search.." name="Search" />
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </div>
+      <div id="winkelWagen">
+        <a onclick="btnWinkelWagen()" id="pWWNumbr">
+          <img src="img/winkelwagen.png" id="imgWW" alt="winkelwagen" />
+          <span id="aWW">0</span>
+        </a>
+      </div>
+    </header>
+    <main>
+      <iframe name="content" src="home.html"></iframe>
+      <div class="navigation">
+        <ul>
+          <li>
+            <a href="home.html" target="content" style="border-left: none; color: #98cd47" onclick="btnHome()" id="btnHome">Home</a>
+          </li>
+          <li>
+            <a href="fietsen.html" target="content" onclick="btnFietsen()" id="btnFietsen">Fietsen</a>
+          </li>
+          <li>
+            <a href="verhuur.html" target="content" onclick="btnVerhuur()" id="btnVerhuur">Verhuur</a>
+          </li>
+          <li>
+            <a href="actie.html" target="content" onclick="btnActie()" id="btnActie">Actie</a>
+          </li>
+          <li>
+            <a href="contact.html" target="content" onclick="btnContact()" id="btnContact">Contact</a>
+          </li>
+          <li>
+            <a href="openingstijden.html" target="content" onclick="btnOpeningstijden()" id="btnOpeningstijden">Openingstijden</a>
+          </li>
+          <li>
+            <a href="overons.html" target="content" onclick="btnOverOns()" id="btnOverOns">Over ons</a>
+          </li>
+        </ul>
+      </div>
+    </main>
+    <footer>
+      <p id="pKvk"> KVK:88599665 - BTW NL999888492Z09 </p>
+      <p id="pAlles">
+        <a href="overons.html" target="content" onclick="btnOverOns()">Over ons</a>
+        -
+        <a href="contact.html" target="content" onclick="btnContact()">Contact</a>
+        -
+        <a href="mailto:info@fluitendefietser.nl" target="_blank">Send Email</a>
+        -
+        <a href="https://nl-nl.facebook.com/" target="_blank">Facebook</a>
+        - © 2023 Fluitende Fietser -
+        <a href="https://www.e-milers.com/media/pdf/16/69/9b/Algemene-voorwaarden-Bovag.pdf" target="_blank">Algemene voorwaarde</a>
+      </p>
+      <img src="img/footer.png" id="iFooter" height="30" alt="bewegende footer fiets"/>
+    </footer>
+    <script>
+      window.addEventListener("storage", function (event) {
+        if (event.key === "aWW") {
+          var element = document.getElementById("aWW");
+          if (element !== null) {
+            element.innerHTML = event.newValue;
+          }
+        }
+      });
+    </script>
+  </body>
+</html>

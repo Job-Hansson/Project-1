@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="NL">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Niet nodig!</title>
+    <link rel="stylesheet" href="css/fietsen.css" />
+    <script src="script/fietsen.js"></script>
+  </head>
+  <body id="body">
+    <div class="card">
+      <h3>Pelikaan Carry On Lady</h3>
+      <div class="underline"></div>
+      <img src="img/Pelikaan_Carry_On_Lady1.jpg" alt="Pelikaan Carry On Lady" class="imgFietsen" />
+      <p>Elektrische: Ja</p>
+      <p class="fietsCardRight">Prijs: €769,00</p>
+      <p>Kleur: Zwart</p>
+      <button class="btnFietsCardRight" onclick="btnZetInWW()">Zet in winkelwagen</button>
+      <p
+        >Deze elektrische fiets is ideaal voor stadsverkenning en dagelijks gebruik. De transportmogelijkheden maken het handig voor boodschappen of zakelijk vervoer. Niet specifiek ontworpen voor
+        ruige terreinen.
+      </p>
+      <button class="btnBekijkFiets" onclick="btnPelikaan()">Bekijk deze fiets!</button>
+    </div>
+
+    <div class="card">
+      <h3>Allegra voorwielmotor</h3>
+      <div class="underline"></div>
+      <img src="img/Stella_Allegra_voorwielmotor.jpg" alt="Allegra voorwielmotor" class="imgFietsen" />
+      <p>Elektrische: Ja</p>
+      <p class="fietsCardRight">Prijs: €999,00</p>
+      <p>Kleur: Zwart</p>
+      <button class="btnFietsCardRight" onclick="btnZetInWW()">Zet in winkelwagen</button>
+      <p
+        >Deze elektrsiche fiets is uitsekend voor stadsverkenning dankzij de voorwielmoter, waardoor het gemakkelijker is om snelheid te behouden. Geschikt voor dagelijks gebruik en licht heuvelachtig
+        terrein.
+      </p>
+      <button class="btnBekijkFiets" onclick="btnStella()">Bekijk deze fiets!</button>
+    </div>
+
+    <div class="card">
+      <h3>Gazelle Orange C7+ HMB 2020</h3>
+      <div class="underline"></div>
+      <img src="img/Gazelle_CityGo_C7.jpg" alt="Gazelle Orange C7+ HMB 2020" class="imgFietsen" />
+      <p>Elektrische: Ja</p>
+      <p class="fietsCardRight">Prijs: €2.199,00</p>
+      <p>Kleur: Blauw</p>
+      <button class="btnFietsCardRight" onclick="btnZetInWW()">Zet in winkelwagen</button>
+      <p
+        >Deze elektrische fiets is ontworpen voor comfortabele stadsritten en geschikt voor heren die een sportieve rijervaring willen. Ideaal voor zowel vlakke als licht heuvelachtige
+        stadsomgevingen.
+      </p>
+      <button class="btnBekijkFiets" onclick="btnOrange()">Bekijk deze fiets!</button>
+    </div>
+
+    <div class="card">
+      <h3>Gazelle CityGo C7</h3>
+      <div class="underline"></div>
+      <img src="img/Gazelle_Orange_C7.jpg" alt="Gazelle CityGo C7" class="imgFietsen" />
+      <p>Elektrische: Nee</p>
+      <p class="fietsCardRight">Prijs: €679,00</p>
+      <p>Kleur: Multicolor</p>
+      <button class="btnFietsCardRight" onclick="btnZetInWW()">Zet in winkelwagen</button>
+      <p
+        >Deze fiets is perfect voor ontspannen stadsfietsen zonder elektrische ondersteuning. Geschikt voor dagelijkse ritten in stadsomgevingen en gamakkelijk te gebruiken op vlak terrein. Let op,
+        deze fiets is niet elektrisch.
+      </p>
+      <button class="btnBekijkFiets" onclick="btnCityGo()">Bekijk deze fiets!</button>
+    </div>
+
+    <div id="popupPelikaan" class="popup">
+      <img src="img/Pelikaan_Carry_On_Lady1.jpg" alt="Pelikaan Carry On Lady" class="imgPopupFiets" />
+      <img src="img/sluit.png" alt="Close" class="close" onclick="btnClosePopup()" />
+      <p class="popupTekst">
+        Deze elektrische fiets is ideaal voor stadsverkenning en dagelijks gebruik. De transportmogelijkheden maken het handig voor boodschappen of zakelijk vervoer. Niet specifiek ontworpen voor
+        ruige terreinen.
+      </p>
+      <div class="line"></div>
+      <h2 class="popupH2">Pelikaan Carry On Lady</h2>
+      <table class="popupTable">
+        <tr>
+          <td class="tblMain">Algemene informatie:</td>
+        </tr>
+        <tr>
+          <td class="td1">Prijs:</td>
+          <td class="td2">€769,00</td>
+        </tr>
+        <tr>
+          <td class="td1">Merk:</td>
+          <td class="td2">Pelikaan</td>
+        </tr>
+        <tr>
+          <td class="td1">Staat:</td>
+          <td class="td2">Nieuw</td>
+        </tr>
+        <tr>
+          <td class="tblMain">Specificaties:</td>
+        </tr>
+        <tr>
+          <td class="td1">elektrisch:</td>
+          <td class="td2">Ja</td>
+        </tr>
+        <tr>
+          <td class="td1">Type:</td>
+          <td class="td2">Transport</td>
+        </tr>
+        <tr>
+          <td class="td1">Geschikt voor:</td>
+          <td class="td2">Zakelijk en Privé</td>
+        </tr>
+        <tr>
+          <td class="td1">Doelgroep:</td>
+          <td class="td2">Dames</td>
+        </tr>
+        <tr>
+          <td class="tblMain">Technische details:</td>
+        </tr>
+        <tr>
+          <td class="td1">Kleur:</td>
+          <td class="td2">Zwart</td>
+        </tr>
+        <tr>
+          <td class="td1">Framehoogte:</td>
+          <td class="td2">53 cm</td>
+        </tr>
+        <tr>
+          <td class="td1">Wielmaat:</td>
+          <td class="td2">28 Inch</td>
+        </tr>
+        <tr>
+          <td class="td1">Remsysteem:</td>
+          <td class="td2">3V V-Brakes</td>
+        </tr>
+      </table>
+      <button class="popupWW" onclick="btnZetInWW()">Zet in winkelwagen</button>
+    </div>
+
+    <div id="popupStella" class="popup">
+      <img src="img/Stella_Allegra_voorwielmotor.jpg" alt="Stella_Allegra_voorwielmotor" class="imgPopupFiets" />
+      <img src="img/sluit.png" alt="Close" class="close" onclick="btnClosePopup()" />
+      <p class="popupTekst">
+        Deze elektrsiche fiets is uitsekend voor stadsverkenning dankzij de voorwielmoter, waardoor het gemakkelijker is om snelheid te behouden. Geschikt voor dagelijks gebruik en licht heuvelachtig
+        terrein.
+      </p>
+      <div class="line"></div>
+      <h2 class="popupH2">Allegra voorwielmotor</h2>
+      <table class="popupTable">
+        <tr>
+          <td class="tblMain">Algemene informatie:</td>
+        </tr>
+        <tr>
+          <td class="td1">Prijs:</td>
+          <td class="td2">€999,00</td>
+        </tr>
+        <tr>
+          <td class="td1">Merk:</td>
+          <td class="td2">Stella</td>
+        </tr>
+        <tr>
+          <td class="td1">Staat:</td>
+          <td class="td2">Nieuw</td>
+        </tr>
+        <tr>
+          <td class="tblMain">Specificaties:</td>
+        </tr>
+        <tr>
+          <td class="td1">elektrisch:</td>
+          <td class="td2">Ja</td>
+        </tr>
+        <tr>
+          <td class="td1">Type:</td>
+          <td class="td2">Stads</td>
+        </tr>
+        <tr>
+          <td class="td1">Geschikt voor:</td>
+          <td class="td2">Zakelijk en Privé</td>
+        </tr>
+        <tr>
+          <td class="td1">Doelgroep:</td>
+          <td class="td2">Dames</td>
+        </tr>
+        <tr>
+          <td class="tblMain">Technische details:</td>
+        </tr>
+        <tr>
+          <td class="td1">Kleur:</td>
+          <td class="td2">Zwart</td>
+        </tr>
+        <tr>
+          <td class="td1">Framemaat:</td>
+          <td class="td2">S</td>
+        </tr>
+      </table>
+      <button class="popupWW" onclick="btnZetInWW()">Zet in winkelwagen</button>
+    </div>
+
+    <div id="popupOrange" class="popup">
+      <img src="img/Gazelle_CityGo_C7.jpg" alt="Gazelle_Orange_C7" class="imgPopupFiets" />
+      <img src="img/sluit.png" alt="Close" class="close" onclick="btnClosePopup()" />
+      <p class="popupTekst">
+        Deze elektrische fiets is ontworpen voor comfortabele stadsritten en geschikt voor heren die een sportieve rijervaring willen. Ideaal voor zowel vlakke als licht heuvelachtige
+        stadsomgevingen.
+      </p>
+      <div class="line"></div>
+      <h2 class="popupH2">Gazelle Orange C7+ HMB 2020</h2>
+      <table class="popupTable">
+        <tr>
+          <td class="tblMain">Algemene informatie:</td>
+        </tr>
+        <tr>
+          <td class="td1">Prijs:</td>
+          <td class="td2">€2199,00</td>
+        </tr>
+        <tr>
+          <td class="td1">Merk:</td>
+          <td class="td2">Gazelle</td>
+        </tr>
+        <tr>
+          <td class="td1">Staat:</td>
+          <td class="td2">Nieuw</td>
+        </tr>
+        <tr>
+          <td class="tblMain">Specificaties:</td>
+        </tr>
+        <tr>
+          <td class="td1">elektrisch:</td>
+          <td class="td2">Ja</td>
+        </tr>
+        <tr>
+          <td class="td1">Type:</td>
+          <td class="td2">Stads</td>
+        </tr>
+        <tr>
+          <td class="td1">Geschikt voor:</td>
+          <td class="td2">Zakelijk en Privé</td>
+        </tr>
+        <tr>
+          <td class="td1">Doelgroep:</td>
+          <td class="td2">Heren</td>
+        </tr>
+        <tr>
+          <td class="tblMain">Technische details:</td>
+        </tr>
+        <tr>
+          <td class="td1">Kleur:</td>
+          <td class="td2">Blauw</td>
+        </tr>
+        <tr>
+          <td class="td1">Framehoogte:</td>
+          <td class="td2">53 cm</td>
+        </tr>
+      </table>
+      <button class="popupWW" onclick="btnZetInWW()">Zet in winkelwagen</button>
+    </div>
+
+    <div id="popupCityGo" class="popup">
+      <img src="img/Gazelle_Orange_C7.jpg" alt="Gazelle_CityGo_C7" class="imgPopupFiets" />
+      <img src="img/sluit.png" alt="Close" class="close" onclick="btnClosePopup()" />
+      <p class="popupTekst">
+        Deze fiets is perfect voor ontspannen stadsfietsen zonder elektrische ondersteuning. Geschikt voor dagelijkse ritten in stadsomgevingen en gamakkelijk te gebruiken op vlak terrein. Let op,
+        deze fiets is niet elektrisch.
+      </p>
+      <div class="line"></div>
+      <h2 class="popupH2">Gazelle CityGo C7</h2>
+      <table class="popupTable">
+        <tr>
+          <td class="tblMain">Algemene informatie:</td>
+        </tr>
+        <tr>
+          <td class="td1">Prijs:</td>
+          <td class="td2">€679,00</td>
+        </tr>
+        <tr>
+          <td class="td1">Merk:</td>
+          <td class="td2">Gazelle</td>
+        </tr>
+        <tr>
+          <td class="td1">Staat:</td>
+          <td class="td2">Nieuw</td>
+        </tr>
+        <tr>
+          <td class="tblMain">Specificaties:</td>
+        </tr>
+        <tr>
+          <td class="td1">elektrisch:</td>
+          <td class="td2">Nee</td>
+        </tr>
+        <tr>
+          <td class="td1">Type:</td>
+          <td class="td2">Stads</td>
+        </tr>
+        <tr>
+          <td class="td1">Geschikt voor:</td>
+          <td class="td2">Zakelijk en Privé</td>
+        </tr>
+        <tr>
+          <td class="td1">Doelgroep:</td>
+          <td class="td2">Heren</td>
+        </tr>
+        <tr>
+          <td class="tblMain">Technische details:</td>
+        </tr>
+        <tr>
+          <td class="td1">Kleur:</td>
+          <td class="td2">Multicolor</td>
+        </tr>
+        <tr>
+          <td class="td1">Wielmaat:</td>
+          <td class="td2">28 Inch</td>
+        </tr>
+      </table>
+      <button class="popupWW" onclick="btnZetInWW()">Zet in winkelwagen</button>
+    </div>
+
+  </body>
+</html>

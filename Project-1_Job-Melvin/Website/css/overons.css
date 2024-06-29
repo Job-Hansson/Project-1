@@ -1,0 +1,38 @@
+body {
+    padding: 90px 20px 20px 20px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#overonsMain {
+    padding: 20px;
+    width: 70%;
+    background-color: #bdd7ee;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+    display: block;
+    margin: auto;
+}
+
+#imgOverons {
+    width: 40%;
+    float: right;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+    border: solid 2px #ffffff;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+#bron {
+    float: right;
+    margin-top: -15px;
+    font-size: 10px;
+}
+
+#underline {
+    background-color: black;
+    width: 58%;
+    height: 1px;
+    margin: -10px auto 5px 0;
+}   

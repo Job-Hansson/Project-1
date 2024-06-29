@@ -1,0 +1,48 @@
+* {box-sizing:border-box}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#slideShow {
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+
+#volgende, #vorige {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 20px;
+  color: #8091a1;
+  font-weight: bold;
+  font-size: 40px;
+  transition: 0.6s ease;
+  border-radius: 0 10px 10px 0;
+  user-select: none;
+}
+
+
+#volgende {
+  right: 0;
+  border-radius: 10px 0 0 10px;
+}
+
+#volgende:hover, #vorige:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+#openOrClosed {
+  background-color: #bdd7ee;
+  position: fixed;
+  left: 40%;
+  bottom: 15px;
+  border-radius: 10% / 40%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+} 
